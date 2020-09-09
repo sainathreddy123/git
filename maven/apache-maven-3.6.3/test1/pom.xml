@@ -50,11 +50,11 @@
 
 		<!-- Tomcat 7 logging -->
 		<dependency>
-			<groupId>org.apache.tomcat.embed</groupId>
-			<artifactId>tomcat-embed-logging-juli</artifactId>
-			<version>${tomcat.version}</version>
-			<!-- <scope>compile</scope> --><!-- comment this for TC7 -->
-		</dependency>
+			<dependency>
+                                     <groupId>org.apache.tomcat.embed</groupId>
+                                      <artifactId>tomcat-embed-core</artifactId>
+                                     <version>[7.0.104,)</version>
+                                           </dependency>
 
 		<!-- Tomcat 7 JSP (Uncomment to support Tomcat JSP) -->
 <!--
